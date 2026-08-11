@@ -155,3 +155,20 @@ project_folder
     /home/user/SBridge/bin/Release/net9.0/sbridge -d <project_path> (--ida) # IDA Pro is optional, default is Ghidra
     ```
      ex) `/home/user/SBridge/bin/Release/net9.0/sbridge -d dataset/sample/CVE-2018-14470`
+
+## Citation
+
+If you find SBridge useful in your research, please cite our paper:
+
+```bibtex
+@article{yang2026sbridge,
+  title     = {SBridge: Identifying Source-to-Binary Function Similarity via Cross-Domain Control Block Matching},
+  author    = {Yang, Heedong and Lee, Jeongwoo and Yun, Hajin and Woo, Seunghoon},
+  journal   = {Proceedings of the ACM on Software Engineering},
+  volume    = {3},
+  number    = {FSE},
+  pages     = {1381--1403},
+  year      = {2026},
+  publisher = {ACM New York, NY, USA}
+}
+```
